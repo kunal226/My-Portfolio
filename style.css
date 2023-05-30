@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@
 /* Navsection */
 .navclass {
     width: 260px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0);
     color: white;
     display: flex;
     flex-direction: column;
@@ -46,7 +48,7 @@
 .menuclass ul {
     font-family: 'Source Serif Pro', serif;
     font-size: 18px;
-    
+
     list-style: none;
     line-height: 50px;
 
@@ -57,6 +59,7 @@
     cursor: pointer;
 
 }
+
 .menuclass ul li:hover {
     color: rgb(8, 141, 8);
 
@@ -68,19 +71,23 @@
     display: flex;
 
 }
-.linkdin:hover{
+
+.linkdin:hover {
     color: blue;
 
 }
-.github:hover{
+
+.github:hover {
     color: gray;
 
 }
-.instagram:hover{
+
+.instagram:hover {
     color: pink;
 
 }
-.email:hover{
+
+.email:hover {
     color: orange;
 
 }
@@ -90,4 +97,71 @@
     cursor: pointer;
     margin-top: 130px;
 
+}
+
+/* cover page */
+.coverpage {
+    background-image: url("/images/IMG_20220814_125027\ \(1\).jpg");
+    background-size: cover;
+    background-position: 170px 34%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: 100vh !important;
+    background-attachment: fixed;
+}
+
+.blacksheet {
+    background-color: rgba(0, 0, 0, 0.625);
+    min-height: 100vh !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+}
+
+.intro p,span {
+    color: white;
+    margin: 15px 0;
+}
+
+.intro p:first-child {
+    font-size: 30px;
+}
+
+.intro p:last-child {
+    font-size: 25px;
+}
+
+.intro span {
+    font-size: 70px;
+    font-weight: 550;
+
+}
+
+.intro a {
+    color: rgb(23, 154, 23);
+    border: 2px solid green;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    top:25px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 400ms;
+
+}
+
+.intro a:hover{
+    background-color: green;
+    color: white;
 }

@@ -128,7 +128,8 @@
     height: 400px;
 }
 
-.intro p,span {
+.intro p,
+span {
     color: white;
     margin: 15px 0;
 }
@@ -154,14 +155,162 @@
     border-radius: 20px;
     cursor: pointer;
     position: relative;
-    top:25px;
+    top: 25px;
     transition-property: all;
     transition-timing-function: ease-in-out;
     transition-duration: 400ms;
 
 }
 
-.intro a:hover{
+.intro a:hover {
     background-color: green;
     color: white;
+}
+
+
+/* about me setion */
+.aboutme {
+    background-color: #212529 !important;
+    color: white;
+    font-size: 30px;
+    padding: 8% 0 0 16%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+hr {
+
+    border: 3px solid green;
+    width: 100px;
+}
+
+.aboutmeheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.name {
+    color: green;
+
+}
+
+.aboutmedetails {
+    padding: 0 60px;
+    display: flex;
+}
+
+.leftdetails p {
+    font-size: 17px;
+    margin: 20px 20px 0 0;
+    line-height: 30px;
+    color: hsla(0, 0%, 100%, .5) !important;
+}
+
+.leftdetails h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.leftdetails {
+    margin: 0 0 0 10px;
+}
+
+.rightdetails {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.rightdetails hr {
+    width: 400px;
+    border: 2px solid hsla(0, 0%, 98%, .12);
+    margin: 5px 0 5px 0;
+
+
+}
+
+.mailclass {
+    color: #20c997;
+    text-decoration: none;
+}
+
+.mailclass:hover {
+    text-decoration: underline;
+    color: green;
+
+}
+
+.resumebutton {
+    border-radius: 30px;
+    padding: 15px 22px;
+    background-color: #20c997;
+    border-color: #20c997;
+    font-size: 15px;
+    width: max-content;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 80px;
+
+}
+
+.resumebutton:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.whatido {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40 !important;
+    flex-direction: column;
+
+}
+
+.whatido h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.whatidodetails{
+    padding: 0 110px 0 90px;
+    display: flex;
+}
+
+.logo i{
+    font-size: 35px;
+    background-color: #212529!important;
+    height:80px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: #20c997;
+}
+
+.components{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    
+}
+
+.components h4{
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+
+.components p{
+    font-size: 15px;
+    color: hsla(0,0%,100%,.5)!important;
+    line-height: 24px;
+}
+
+.logo{
+    display: flex;
+    margin: 60px 0;
+    padding: 0 20px;
+
 }
